@@ -4,6 +4,8 @@
 
 ![Authorization-vs-Authentication](img/Authorization-vs-Authentication.png)  
 
-  To implement these Identity and Access Management (IAM) tasks easily, you can use OAuth 2.0, an authorization framework, and OpenID Connect (OIDC), a simple identity layer on top of it.
-  OAuth encapsulates access information in an access token. In turn, OpenID Connect encapsulates identity information in an ID token. The authentication server can send these two tokens to the client application initiating the process. When the user requests a protected API endpoint, it must send the access token along with the request.
+            To implement these Identity and Access Management (IAM) tasks easily, you can use OAuth 2.0, an authorization framework, and OpenID Connect (OIDC), a simple identity layer on top of it.
+            
+            
+            OAuth encapsulates access information in an access token. In turn, OpenID Connect encapsulates identity information in an ID token. The authentication server can send these two tokens to the client application initiating the process. When the user requests a protected API endpoint, it must send the access token along with the request.
 
