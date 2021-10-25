@@ -8,4 +8,6 @@
             
             
             OAuth encapsulates access information in an access token. In turn, OpenID Connect encapsulates identity information in an ID token. The authentication server can send these two tokens to the client application initiating the process. When the user requests a protected API endpoint, it must send the access token along with the request.
+            
+![JWT_Simple_Flow](img/JWT_Simple_Flow.png) 
 
