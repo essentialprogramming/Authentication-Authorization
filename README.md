@@ -11,3 +11,5 @@
             
 ![JWT_Simple_Flow](img/JWT_Simple_Flow.png) 
 
+![JWT_Signing](img/JWT_Signing.png) 
+
