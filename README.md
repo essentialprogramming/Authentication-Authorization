@@ -64,6 +64,8 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
         *   With RS256 you can request a token that is valid for multiple audiences.
         *   With RS256 you can implement key rotation without having to re-deploy the API with the new secret.
 
+![What_is_JWT](img/What_is_JWT.png) 
+
 
 ## OAuth 2
 
