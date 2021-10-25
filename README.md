@@ -64,3 +64,16 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
 
 *   **Bearer Token** A security token with the property that any party in possession of the token (a "bearer") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).  
     *   **Access token** is the token provided by the authorization server that provide access to Protected Resources. The token has a corresponding duration of access, scope, and potentially other information the server needs.  
+
+## JWT (JSON Web Token)
+
+*   **What is JWT?**  JSON Web Token (_**JWT**_) is a  type of **bearer** token  representing **claims** to be transferred between two parties. The claims in a **_JWT_ **are encoded as a  JSON object that is used as the payload of a JSON Web Signature (_**JWS**_) structure or as the plaintext of a JSON Web Encryption (_**JWE**_) structure, enabling the  claims to be digitally signed or integrity protected with a Message Authentication Code (MAC) and/or encrypted.  
+
+*   **JWT Signature:** To create the _**JWT signature**_ you  take the encoded **header**, the encoded **payload**, a **secret**, the algorithm specified in the header and sign that. _The algorithm is part of the JWT header, for example :_
+    *   **RS256**  (RSA Signature with [SHA-256](https://en.wikipedia.org/wiki/SHA-256))   is an [asymmetric algorithm](https://en.wikipedia.org/wiki/Public-key_cryptography) which means that there are two keys: one public and one private (secret). Auth Server has the secret key, which is used to generate the signature, and the consumer of the JWT has the public key, which is used to validate the signature.
+    *   **HS256**   ([HMAC](https://en.wikipedia.org/wiki/HMAC) with SHA-256)  is a [symmetric algorithm](https://en.wikipedia.org/wiki/Symmetric-key_algorithm) which means that there is only one secret key, shared between the two parties. The same key is used both to generate the signature and to validate it. Special care should be taken in order for the key to remain confidential
+    *   The most secure practice is to use **RS256**. Some of the reasons are:
+        *   With RS256 you are sure that only the holder of the private key Auth Server can sign tokens, while anyone can check if the token is valid using the public key.
+        *   Under HS256, if the secret key is compromised (e.g. by the application) you would have to re-deploy the API with the new secret.
+        *   With RS256 you can request a token that is valid for multiple audiences.
+        *   With RS256 you can implement key rotation without having to re-deploy the API with the new secret.
