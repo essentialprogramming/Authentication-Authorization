@@ -51,7 +51,7 @@ Role-based access control technique is given to users as per their role or profi
 JSON web token or JWT is an open standard used to securely transmit the data between the parties in the form of the JSON object. The users are verified and authorized using the private/public key pair.
 
 
-
+## OAuth 2
 
 *   **OAuth 2** – OAuth is an open standard for authorization   specified in the [OAuth 2.0 Authorization Framework](http://tools.ietf.org/html/rfc6749)  . The purpose of OAUTH is to allow access to some resource by third parties without having to share client username/password (credentials). This access can then be selectively granted and revoked by the client at any time. It establishes a trust relationship between the client and the third party. OAuth achieves this by introducing an authorization layer and separating the role of the client from that of the resource owner. OAuth defines four primary roles:
 
