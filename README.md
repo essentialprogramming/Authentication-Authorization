@@ -66,6 +66,8 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
 
 ![What_is_JWT](img/What_is_JWT.png) 
 
+An access token can look like this:
+
 
 ## OAuth 2
 
