@@ -69,6 +69,8 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
 ## Public-key cryptography, or asymmetric cryptography
 
  Public-key cryptography is a cryptographic system that uses pairs of keys. Each pair consists of a public key (which may be known to others) and a private key (which may not be known by anyone except the owner).
+ Two of the best-known uses of public key cryptography are:
+ 
  
 ![Asymmetric_Encryption](img/Asymmetric_Encryption.png) 
 
