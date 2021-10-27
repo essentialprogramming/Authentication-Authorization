@@ -77,8 +77,6 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
 ![Alice_and_Bob](img/Alice_and_Bob.png) 
 
 
-An access token can look like this:
-
 
 ## OAuth 2
 
@@ -93,4 +91,6 @@ An access token can look like this:
 
 *   **Bearer Token** A security token with the property that any party in possession of the token (a "bearer") can use the token in any way that any other party in possession of it can. Using a bearer token does not require a bearer to prove possession of cryptographic key material (proof-of-possession).  
     *   **Access token** is the token provided by the authorization server that provide access to Protected Resources. The token has a corresponding duration of access, scope, and potentially other information the server needs.  
+
+An access token can look like this:
 
