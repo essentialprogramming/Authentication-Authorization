@@ -82,7 +82,7 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
 
 ## OAuth 2
 
-*   **OAuth 2** – OAuth is an open standard for authorization   specified in the [OAuth 2.0 Authorization Framework](http://tools.ietf.org/html/rfc6749)  . The purpose of OAUTH is to allow access to some resource by third parties without having to share client username/password (credentials). This access can then be selectively granted and revoked by the client at any time. It establishes a trust relationship between the client and the third party. OAuth achieves this by introducing an authorization layer and separating the role of the client from that of the resource owner. OAuth defines four primary roles:
+*   **OAuth 2** – OAuth is an open standard for authorization specified in the [OAuth 2.0 Authorization Framework](http://tools.ietf.org/html/rfc6749). The purpose of OAUTH is to allow access to some resource by third parties without having to share client username/password (credentials). This access can then be selectively granted and revoked by the client at any time. It establishes a trust relationship between the client and the third party. OAuth achieves this by introducing an authorization layer and separating the role of the client from that of the resource owner. OAuth defines four primary roles:
 
     *  **Resource owner** (RO): The entity that can _grant access_ to a **protected resource** exposed by an API.  Typically this is the end-user.  
     *  **Client**: The mobile application, web site, and so on, that wants to access a **protected resource** on behalf of the **resource owner**.
