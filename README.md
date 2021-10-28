@@ -95,4 +95,6 @@ JSON web token or JWT is an open standard used to securely transmit the data bet
     *   **Access token** is the token provided by the authorization server that provide access to Protected Resources. The token has a corresponding duration of access, scope, and potentially other information the server needs.  
 
 An access token can look like this:
+![image_2021_10_28T10_27_58_240Z](https://user-images.githubusercontent.com/59827066/139239254-19478606-17d0-414f-96d5-06afdfaf93cd.png)
+
 
